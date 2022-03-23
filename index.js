@@ -100,7 +100,7 @@ function draw() {
     fill(colorText);
     text('☮', x+(fz/10), y - (fz/5), int(width / 2), int(height / 2) );
     textSize(fz/2.3);
-    text('STOP', x+(fz/10), y+(fz/6), int(width / 2), int(height / 2) );
+    text('NO', x+(fz/10), y+(fz/6), int(width / 2), int(height / 2) );
     textSize(fz/2);
     text('WAR', x+(fz/10), y+(fz/2), int(width / 2), int(height / 2) );
   }
