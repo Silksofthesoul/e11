@@ -23,8 +23,8 @@ class Worm {
 
   degFactor = 2;
   degMutator = 1;
-  deg = 45;
-  oldDeg = 45;
+  deg = rndMinMaxInt(-360, 360);
+  oldDeg = 0;
 
   isStop = false;
 
